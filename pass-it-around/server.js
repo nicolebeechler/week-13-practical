@@ -29,4 +29,4 @@ app.listen(3000, () => {
 })
 
 // display in browser: http://localhost:3000/
-// /:number_of_bottles will count down with every click, on input your own number
+// /:number_of_bottles will count down with every click, or enter your own number
