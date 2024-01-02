@@ -39,8 +39,8 @@ app.get('/magic/:question', (req, res) => {
         "Outlook not so good", "Very doubtful"
     ]
     
-    const question = req.params.question.replace(/%20/g, ' ');
-    const randomAnswer = answers[Math.floor(Math.random() * answers.length)];
+    const question = req.params.question.replace(/%20/g, ' ')
+    const randomAnswer = answers[Math.floor(Math.random() * answers.length)]
 
     res.send(`
         <h2>Your Question: ${question}</h2>
